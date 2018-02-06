@@ -11,7 +11,6 @@ Output= csv file with two sheets. column relative to rows( read row then column 
 from math import sin, cos, sqrt,atan2,radians,degrees
 import pandas as pd
 
-
 """
 Define the class for two points
 """
@@ -93,7 +92,7 @@ def position_locator(st,df_position,df_distance,lower_bad=5,uper_band=60):
         return dic_pos_dist
 
 """
-Run the code example:
+Run an example:
 """
 input_file="rstations.csv"
 dis,pos=position_matrix(input_file)
